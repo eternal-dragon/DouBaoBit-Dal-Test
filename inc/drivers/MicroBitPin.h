@@ -58,6 +58,12 @@ DEALINGS IN THE SOFTWARE.
 #define MICROBIT_PIN_P16                    P0_16       //PIN 16
 #define MICROBIT_PIN_P19                    P0_0        //SCL
 #define MICROBIT_PIN_P20                    P0_30       //SDA
+#define MICROBIT_PIN_D0                     P0_7        //
+#define MICROBIT_PIN_D1                     P0_8        //
+#define MICROBIT_PIN_D2                     P0_9        //
+#define MICROBIT_PIN_D6                     P0_13       //
+#define MICROBIT_PIN_D7                     P0_14       //
+#define MICROBIT_PIN_D8                     P0_15       //
 
 #define MICROBIT_PIN_MAX_OUTPUT             1023
 

@@ -59,6 +59,13 @@ DEALINGS IN THE SOFTWARE.
 #define MICROBIT_ID_IO_P19              24          //SCL
 #define MICROBIT_ID_IO_P20              25          //SDA
 
+#define MICROBIT_ID_IO_D0               100         //
+#define MICROBIT_ID_IO_D1               101         //
+#define MICROBIT_ID_IO_D2               102         //
+#define MICROBIT_ID_IO_D6               103         //
+#define MICROBIT_ID_IO_D7               104         //
+#define MICROBIT_ID_IO_D8               105         //
+
 #define MICROBIT_ID_BUTTON_AB           26          // Button A+B multibutton
 #define MICROBIT_ID_GESTURE             27          // Gesture events
 
