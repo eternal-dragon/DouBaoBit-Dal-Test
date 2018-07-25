@@ -60,6 +60,9 @@ class MicroBitIO
     MicroBitPin          P16;
     MicroBitPin          P19;
     MicroBitPin          P20;
+    MicroBitPin          int1;
+    MicroBitPin          int2;
+    MicroBitPin          int3;
     MicroBitPin          D0;
     MicroBitPin          D1;
     MicroBitPin          D2;
@@ -83,7 +86,7 @@ class MicroBitIO
                int ID_P15,int ID_P16,int ID_P19,
                int ID_P20, int ID_D0, int ID_D1,
                int ID_D2, int ID_D6, int ID_D7,
-               int ID_D8);
+               int ID_D8, int ID_INT1, int ID_INT2, int ID_INT3);
 };
 
 #endif
