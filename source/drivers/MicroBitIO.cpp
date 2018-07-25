@@ -72,7 +72,7 @@ MicroBitIO::MicroBitIO(int ID_P0, int ID_P1, int ID_P2,
                                       D2(ID_D2, MICROBIT_PIN_D2, PIN_CAPABILITY_STANDARD),    //PIN 9
                                       D6(ID_D6, MICROBIT_PIN_D6, PIN_CAPABILITY_STANDARD),    //PIN 13
                                       D7(ID_D7, MICROBIT_PIN_D7, PIN_CAPABILITY_STANDARD),    //PIN 14
-                                      D8(ID_D8, MICROBIT_PIN_D8, PIN_CAPABILITY_STANDARD),    //PIN 15
+                                      D8(ID_D8, MICROBIT_PIN_D8, PIN_CAPABILITY_STANDARD)    //PIN 15
 
 {
 }
