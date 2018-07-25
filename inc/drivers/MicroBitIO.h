@@ -60,15 +60,16 @@ class MicroBitIO
     MicroBitPin          P16;
     MicroBitPin          P19;
     MicroBitPin          P20;
-    MicroBitPin          int1;
-    MicroBitPin          int2;
-    MicroBitPin          int3;
     MicroBitPin          D0;
     MicroBitPin          D1;
     MicroBitPin          D2;
     MicroBitPin          D6;
     MicroBitPin          D7;
     MicroBitPin          D8;
+    MicroBitPin          int1;
+    MicroBitPin          int2;
+    MicroBitPin          int3;
+    
 
     /**
       * Constructor.
