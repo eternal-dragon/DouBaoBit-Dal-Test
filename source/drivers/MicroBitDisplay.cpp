@@ -56,7 +56,7 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
     matrixMap(map),
     image(map.width*2,map.height)
 {
-    uint32_t row_mask;
+ /*   uint32_t row_mask;
 
     this->id = id;
     this->width = map.width;
@@ -86,7 +86,8 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
 	system_timer_add_component(this);
 
     status |= MICROBIT_COMPONENT_RUNNING;
-}
+
+*/}
 
 /**
   * Internal frame update method, used to strobe the display.
