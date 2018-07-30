@@ -58,10 +58,10 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
 {
     uint32_t row_mask;
 
-    //this->id = id;
-    //this->width = map.width;
-    //this->height = map.height;
-    //this->rotation = MICROBIT_DISPLAY_ROTATION_0;
+    this->id = id;
+    this->width = map.width;
+    this->height = map.height;
+    this->rotation = MICROBIT_DISPLAY_ROTATION_0;
 
     row_mask = 0;
     col_mask = 0;
@@ -76,14 +76,14 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
 */
     LEDMatrix = new PortOut(Port0, row_mask | col_mask);
 
-    //this->greyscaleBitMsk = 0x01;
-    //this->timingCount = 0;
-    //this->setBrightness(MICROBIT_DISPLAY_DEFAULT_BRIGHTNESS);
-    //this->mode = DISPLAY_MODE_BLACK_AND_WHITE;
-    //this->animationMode = ANIMATION_MODE_NONE;
-    //this->lightSensor = NULL;
+    this->greyscaleBitMsk = 0x01;
+    this->timingCount = 0;
+    this->setBrightness(MICROBIT_DISPLAY_DEFAULT_BRIGHTNESS);
+    this->mode = DISPLAY_MODE_BLACK_AND_WHITE;
+    this->animationMode = ANIMATION_MODE_NONE;
+    this->lightSensor = NULL;
 
-	//system_timer_add_component(this);
+	system_timer_add_component(this);
 
     status |= MICROBIT_COMPONENT_RUNNING;
 
