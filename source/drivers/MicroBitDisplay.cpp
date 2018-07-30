@@ -56,13 +56,13 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
     matrixMap(map),
     image(map.width*2,map.height)
 {
-    uint32_t row_mask;
+    //uint32_t row_mask;
 
     //this->id = id;
     //this->width = map.width;
     //this->height = map.height;
     //this->rotation = MICROBIT_DISPLAY_ROTATION_0;
-
+/*
     row_mask = 0;
     col_mask = 0;
     strobeRow = 0;
@@ -75,7 +75,7 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
         col_mask |= 0x01 << i;
 
     LEDMatrix = new PortOut(Port0, row_mask | col_mask);
-
+*/
     //this->greyscaleBitMsk = 0x01;
     //this->timingCount = 0;
     //this->setBrightness(MICROBIT_DISPLAY_DEFAULT_BRIGHTNESS);
