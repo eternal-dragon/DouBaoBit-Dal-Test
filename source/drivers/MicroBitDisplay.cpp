@@ -56,7 +56,7 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
     matrixMap(map),
     image(map.width*2,map.height)
 {
- /*   uint32_t row_mask;
+    uint32_t row_mask;
 
     this->id = id;
     this->width = map.width;
@@ -76,18 +76,18 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
 
     LEDMatrix = new PortOut(Port0, row_mask | col_mask);
 
-    this->greyscaleBitMsk = 0x01;
-    this->timingCount = 0;
-    this->setBrightness(MICROBIT_DISPLAY_DEFAULT_BRIGHTNESS);
-    this->mode = DISPLAY_MODE_BLACK_AND_WHITE;
-    this->animationMode = ANIMATION_MODE_NONE;
-    this->lightSensor = NULL;
+    //this->greyscaleBitMsk = 0x01;
+    //this->timingCount = 0;
+    //this->setBrightness(MICROBIT_DISPLAY_DEFAULT_BRIGHTNESS);
+    //this->mode = DISPLAY_MODE_BLACK_AND_WHITE;
+    //this->animationMode = ANIMATION_MODE_NONE;
+    //this->lightSensor = NULL;
 
-	system_timer_add_component(this);
+	//system_timer_add_component(this);
 
     status |= MICROBIT_COMPONENT_RUNNING;
 
-*/}
+}
 
 /**
   * Internal frame update method, used to strobe the display.
