@@ -58,10 +58,10 @@ MicroBitDisplay::MicroBitDisplay(uint16_t id, const MatrixMap &map) :
 {
     uint32_t row_mask;
 
-    this->id = id;
-    this->width = map.width;
-    this->height = map.height;
-    this->rotation = MICROBIT_DISPLAY_ROTATION_0;
+    //this->id = id;
+    //this->width = map.width;
+    //this->height = map.height;
+    //this->rotation = MICROBIT_DISPLAY_ROTATION_0;
 
     row_mask = 0;
     col_mask = 0;
